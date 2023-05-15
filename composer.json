@@ -1,0 +1,15 @@
+{
+    "name": "codespace/lunar-calculate",
+    "autoload": {
+        "psr-4": {
+            "Codespace\\LunarCalculate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hoang",
+            "email": "sunvniz@gmail.com"
+        }
+    ],
+    "require": {}
+}
