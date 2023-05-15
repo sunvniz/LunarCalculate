@@ -19,7 +19,7 @@ $calendor = new CalendarCalculator();
 		<h1>This code was code on Note 8 Samsung Dex</h1>
 	</header>
 	<div class="content-wrapper">
-		<p>This is awesome! <?=$calendor->handle(Carbon\Carbon::parse('2023 05 16 1:25 AM')) ?></p>
+		<p>This is awesome! <?=$calendor->handle(Carbon\Carbon::parse('2023/05/16 1:25')) ?></p>
 	</div>
 </body>
 </html>
