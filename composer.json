@@ -2,7 +2,7 @@
     "name": "codespace/lunar-calculate",
     "autoload": {
         "psr-4": {
-            "Codespace\\LunarCalculate\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
@@ -11,5 +11,12 @@
             "email": "sunvniz@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^2.66"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.3"
+        }
+    }
 }
